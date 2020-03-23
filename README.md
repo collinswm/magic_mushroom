@@ -1,4 +1,4 @@
-# magic_mushroom
+# Classify which mushrooms are poisonous and which are edible?
 
 # Objective
 Datathon to classify mushrooms as poisonous or edible. The ideal situation is that we are aiming to create a model which can predict with 100% certainty that all mushrooms which are poisonous are actually classified as poisonou. The cost of incorrectly predicting is very high - you can recommend a mushroom as edible when it can be highly toxic. 
@@ -28,17 +28,15 @@ For the purposes of this project I have run some exploratory analysis, correlati
 2. Identify a series of models to the training data:
 
 For all models below, fit the model to the training data and apply the fitted data to the test data to predict the 'class' label within the test set (20%)
-  -Decision Tree, 
-  -Gaussian Naive Bayes, 
-  -Random Forest, 
-  -K Nearest Neighbour, 
-  -Logistic Regression 
+-Decision Tree, 
+-Gaussian Naive Bayes, 
+-Random Forest, 
+-K Nearest Neighbour, 
+-Logistic Regression 
 
 3.  the output of the models: 
-
-
-- Report on Classification metrics and visualise: 
-  -Generate and visualise a confusion matrix
-  -Create a canned Error Report per model focusing on Precision, Recall, F1 Score, Support
-  -Create an ROC curve visualisation
-  -Plot the ROC curve to show False Positives and True Positives
+-Report on Classification metrics and visualise: 
+-Generate and visualise a confusion matrix
+-Create a canned Error Report per model focusing on Precision, Recall, F1 Score, Support
+-Create an ROC curve visualisation
+-Plot the ROC curve to show False Positives and True Positives
