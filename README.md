@@ -8,6 +8,7 @@ For the purposes of this project I have run some exploratory analysis, correlati
 Once the data is prepared this is run through a series of classification models, with errors reported and visualised. There is some heavy borrowing from other approaches here, as I am using it as an attempt to improve my python + machine learning skills. 
 
 Steps followed:
+
 -Import various libraries 
 -Read training data
 -Check for missing values and remove or impute (fill forward)
@@ -22,6 +23,7 @@ Steps followed:
   -Applying the standard scaler to create consistent scales
   
 - Apply the following models from SciKit Learn:
+
   -Decision Tree, 
   -Gaussian Naive Bayes, 
   -Random Forest, 
@@ -29,8 +31,10 @@ Steps followed:
   -Logistic Regression 
 
 - For each model the approach is the same (where possible and methods are supported within SciKitLearn):
+
 - Fit the model to the training data
 - Apply the fit model to the test data and predict the 'class' label
+- Report on Classification metrics and visualise: 
   -Generate and visualise a confusion matrix
   -Create a canned Error Report per model focusing on Precision, Recall, F1 Score, Support
   -Create an ROC curve visualisation
