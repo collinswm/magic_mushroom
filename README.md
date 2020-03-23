@@ -6,8 +6,6 @@ Datathon to classify mushrooms as poisonous or edible. The ideal situation is th
 # Process
 The process followed has been to develop the material here under time pressure using a series of modelling techniques to explore, transform and model the Mushroom dataset.
 
-For the purposes of this project I have run some exploratory analysis, correlations and visualisations to see how the underlying data relate to the target variable 'class'. Once the data is prepared this is run through a series of classification models, with errors reported and visualised. There is some heavy borrowing from other approaches here, as I am using it as an attempt to improve my python + machine learning skills. 
-
 #Steps Followed
 
 1. Prepare and process data: 
